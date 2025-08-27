@@ -28,10 +28,7 @@ function capitalize(ch){
         else {
             ch2 =ch2+ ch[i]; 
         }
-    }
-
-    return ch2;
-}
+    } return ch2;}
 //Array functions
 //Question1
 function Max(arr) {
@@ -78,11 +75,11 @@ function Prime(nbr) {
     for (var i = 2; i < num; i++) {
         if (nbr % i == 0) return false; 
     return true;}}
-//questionn 3:
+//question 3:
 function fibonacci(n) {
     var s = [0, 1];
     for (var i = 2; i < n; i++) {
         s[i] = s[i - 1] + s[i - 2];
-    }
-    return s;
+    }return s;
 }
+
